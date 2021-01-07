@@ -1,0 +1,12 @@
+.box {
+  background: lightgrey;
+  padding: 50px;
+  border: 1px solid grey;
+  background: lightblue;
+  padding: 50px;
+  border: 1px solid black;
+  width: 300px;
+  height: auto;
+  display: inline-block;
+  margin: 40px;
+}
