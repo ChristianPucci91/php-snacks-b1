@@ -19,7 +19,7 @@
       <h3>{{item.description}}</h3>
       <ul>
         <li v-if="item.parking">  <strong>Parking: </strong>Si</li>
-        <li v-else><strong>Parking: </strong>Si</li>
+        <li v-else><strong>Parking: </strong>No</li>
         <li>  <strong>Voto: </strong>{{item.vote}}</li>
         <li> <strong>Distanza dal centro: </strong> {{item.distance_to_center}} km</li>
       </ul>
