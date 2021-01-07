@@ -20,7 +20,18 @@
        <div class="box">
 
          <h1><?php echo $value['name'] ?></h1>
-         <h2><?php echo $value['description'] ?></h2>
+         <h3><?php echo $value['description'] ?></h3>
+
+         <ul>
+           <!-- se parking = true scrive si altrimenti no -->
+           <li> <strong>Parking:</strong> <?php if ($value['parking']) {
+             echo 'Si';
+           } else {
+             echo 'No';
+           }
+            ?></li>
+
+         </ul>
 
        </div>
        <?php
